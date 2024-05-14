@@ -20,7 +20,7 @@ For less formal discussions there is also an [archinstall Discord server](https:
 
 ## Coding convention
 
-ArchInstall's goal is to follow [PEP8](https://www.python.org/dev/peps/pep-0008/) as best as it can with some minor exceptions.<br>
+Archinstall's goal is to follow [PEP8](https://www.python.org/dev/peps/pep-0008/) as best as it can with some minor exceptions.<br>
 
 The exceptions to PEP8 are:
 
