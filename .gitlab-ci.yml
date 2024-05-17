@@ -71,7 +71,7 @@ build_iso:
     name: "Arch Live ISO"
     paths:
       - /tmp/archlive/out/*.iso
-    expire_in: 1 week
+    expire_in: 2 weeks
 
 ## This job only runs when a tag is created on the master branch. This is because we do not want to try to publish to PyPi every time we commit.
 ## The following CI/CD variables need to be set to the PyPi username and password in the GitLab project's settings for this stage to work.
