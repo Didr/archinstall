@@ -30,7 +30,7 @@ cat <<- _EOF_ | tee /tmp/archlive/airootfs/root/.zprofile
 
 	echo "This is an unofficial ISO for development and testing of archinstall. No support will be provided."
 	echo "This ISO was built from Git SHA $GITHUB_SHA"
-	echo "Type archinstall to launch the installer."
+	echo "Type archinstall to launch the installer!"
 _EOF_
 
 pacman --noconfirm -S archiso
